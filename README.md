@@ -20,3 +20,5 @@ https://www.cmegroup.com/market-data/volume-open-interest/exchange-volume.html
 There are two main scripts for the process:
 etl_flow: Contains all functions needed for the ETL process.
 load_sql: Contains all SQL connections and queries. etl_flow functions are included in this script.
+
+Note: This project uses Selenium and the chromedriver.exe file for user's version of crome is required. Download the appropriate driver at https://chromedriver.chromium.org/downloads
